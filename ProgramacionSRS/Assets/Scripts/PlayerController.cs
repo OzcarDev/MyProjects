@@ -43,6 +43,20 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        currentState.OnCollisionEnter(this, other);
+        currentState.OnTriggerEnter(this, other);
     }
+
+	private void OnCollisionEnter2D(Collision2D col)
+	{
+		currentState.OnCollisionEnter(this, col);
+	}
+
+	private void OnCollisionExit2D(Collision2D col)
+	{
+		currentState.OnCollisionEnter(this, col);
+	}
 }
+
+	
+
+
