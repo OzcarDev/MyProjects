@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Bullet
+  - IgnoreBullet
   layers:
   - Default
   - TransparentFX
@@ -39,6 +41,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1553177693
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Tiles
+    uniqueID: 3642035311
+    locked: 0
+  - name: Props
+    uniqueID: 869845955
+    locked: 0
+  - name: Player
+    uniqueID: 1791694293
     locked: 0

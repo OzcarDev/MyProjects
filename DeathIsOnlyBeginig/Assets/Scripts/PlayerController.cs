@@ -29,13 +29,18 @@ public class PlayerController : MonoBehaviour
     public Collider2D dashingBox;
     public Collider2D walkingBox;
 
-  
-    
+
+    GameManager gameManager;
+    public CamTarget camTarget;
 
     void Start()
     {
+        camTarget = GameObject.Find("Main Camera").GetComponent<CamTarget>();
         rb = this.gameObject.GetComponent<Rigidbody2D>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gameManager.player.Add(this.gameObject);
         isDashing = false;
+        camTarget.target = this.transform;
     }
 
     // Update is called once per frame
@@ -70,8 +75,8 @@ public class PlayerController : MonoBehaviour
         if (!isDashing)
         {
             rb.velocity = new Vector2(speed * horizontalAxis, rb.velocity.y);
-            if (horizontalAxis < 0.0f) rb.gameObject.transform.localScale = new Vector3(-0.5f, 0.5f, 0.5f);
-            else if (horizontalAxis > 0.0f) rb.gameObject.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+            if (horizontalAxis < 0.0f) rb.gameObject.transform.localScale = new Vector3(-1f,1f,1f);
+            else if (horizontalAxis > 0.0f) rb.gameObject.transform.localScale = new Vector3(1f, 1f, 1f);
         }
     }
 
@@ -123,9 +128,26 @@ public class PlayerController : MonoBehaviour
         grounded = Physics2D.OverlapBox(groundCheckPoint.position, groundCheckSize,0, groundLayer);
     }
 
-    private void OnDrawGizmosSelected()
+    /*private void OnCollisionEnter2D(Collision2D other)
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawCube(groundCheckPoint.position, groundCheckSize);
+        if(other.gameObject.tag == "Player")
+        {
+            transform.parent = other.gameObject.GetComponentInParent<Transform>();
+        }
     }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            transform.parent = null;
+        }
+    }
+
+    */
+     private void OnDrawGizmosSelected()
+     {
+         Gizmos.color = Color.red;
+         Gizmos.DrawCube(groundCheckPoint.position, groundCheckSize);
+     }
 }
