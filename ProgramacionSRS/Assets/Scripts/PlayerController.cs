@@ -53,8 +53,13 @@ public class PlayerController : MonoBehaviour
 
 	private void OnCollisionExit2D(Collision2D col)
 	{
-		currentState.OnCollisionEnter(this, col);
+		currentState.OnCollisionExit(this, col);
 	}
+
+    public void DestroyOther(GameObject other)
+    {
+        Destroy(other);
+    }
 }
 
 	

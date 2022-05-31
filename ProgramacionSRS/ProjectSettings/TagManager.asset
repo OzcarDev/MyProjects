@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - MobilePlatform
+  - Power
   layers:
   - Default
   - TransparentFX

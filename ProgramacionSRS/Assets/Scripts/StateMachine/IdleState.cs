@@ -6,6 +6,7 @@ public class IdleState : BaseState
 	GameManager gameManager;
 	public override void EnterState(PlayerController playerController) {
 		gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+		playerController.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
 	}
 
 
@@ -20,6 +21,12 @@ public class IdleState : BaseState
 			gameManager.RestartScene();
 		}
 
+		if (other.gameObject.tag == "Power")
+        {
+			Debug.Log("ChangingPower");
+			
+			playerController.SwitchState(playerController.powerState);
+        }
 
 
 	}
