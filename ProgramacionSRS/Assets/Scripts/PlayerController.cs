@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
    public PowerState powerState = new PowerState();
    public DamageState damageState = new DamageState();
    public IdleState idleState= new IdleState();
-
+    public AudioSource deadSound;
+    public Animator deadAnimation;
     [Header("Movement")]
     public float speed;
     float horizontal;

@@ -1,10 +1,13 @@
-
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class IdleState : BaseState
 {
 	GameManager gameManager;
+	PlayerController player;
 	public override void EnterState(PlayerController playerController) {
+		player = playerController;
 		gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
 		playerController.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
 	}
@@ -18,7 +21,8 @@ public class IdleState : BaseState
 		if (other.gameObject.tag == "Enemy")
 		{
 			Debug.Log("Damage");
-			gameManager.RestartScene();
+			player.StartCoroutine(DeadSecuency());
+			
 		}
 
 		if (other.gameObject.tag == "Power")
@@ -29,6 +33,15 @@ public class IdleState : BaseState
         }
 
 
+	}
+
+	IEnumerator DeadSecuency()
+    {
+		player.deadSound.Play();
+		player.deadAnimation.Play("Idle");
+
+		yield return new WaitForSeconds(1.5f);
+		gameManager.RestartScene();
 	}
 
 	public override void OnCollisionEnter(PlayerController playerController, Collision2D col)
