@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class AttackState : BaseState
 {
-    public override void EnterState(Enemy enemy, Rigidbody enemyRb) { }
-    public override void UpdateState(Enemy enemy) { }
+    public override void EnterState(Enemy enemy, Rigidbody enemyRb, int time) {
+        Debug.Log("AttackState");
+        enemy.animator.Play("Attack");
+    }
 
-    public override void OnTriggerEnter(Enemy enemy) { }
+    public override void UpdateState(Enemy enemy) { }
+    public override void OnTriggerEnter(Enemy enemy, Collider other) {
+    
+    
+    }
 }

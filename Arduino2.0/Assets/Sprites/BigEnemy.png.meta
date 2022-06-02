@@ -1,0 +1,798 @@
+fileFormatVersion: 2
+guid: 8a42f78d7801e2a478840f34da205e22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1137515956359128959
+    second: BigEnemy_0
+  - first:
+      213: -8076333155226766968
+    second: BigEnemy_1
+  - first:
+      213: -2575612711984124796
+    second: BigEnemy_2
+  - first:
+      213: 3186146267883103794
+    second: BigEnemy_3
+  - first:
+      213: -3494826732958017875
+    second: BigEnemy_4
+  - first:
+      213: 551144610930064512
+    second: BigEnemy_5
+  - first:
+      213: 561311033889879040
+    second: BigEnemy_6
+  - first:
+      213: 4271563301495710878
+    second: BigEnemy_7
+  - first:
+      213: 3221001573531119033
+    second: BigEnemy_8
+  - first:
+      213: -3051623763717397467
+    second: BigEnemy_9
+  - first:
+      213: 7806210708945300728
+    second: BigEnemy_10
+  - first:
+      213: 765258169010105617
+    second: BigEnemy_12
+  - first:
+      213: -6163283110255497779
+    second: BigEnemy_15
+  - first:
+      213: 4226388857509153700
+    second: BigEnemy_17
+  - first:
+      213: 7442043612081022175
+    second: BigEnemy_20
+  - first:
+      213: -8430105119462582033
+    second: BigEnemy_22
+  - first:
+      213: -7204205131715772187
+    second: BigEnemy_25
+  - first:
+      213: -6820715065452089846
+    second: BigEnemy_27
+  - first:
+      213: -8379307997424756657
+    second: BigEnemy_30
+  - first:
+      213: 6844316903817039381
+    second: BigEnemy_35
+  - first:
+      213: 1861465099480124909
+    second: BigEnemy_40
+  - first:
+      213: -4339505114790107755
+    second: BigEnemy_45
+  - first:
+      213: -5497614514306612044
+    second: BigEnemy_53
+  - first:
+      213: -5766463157628297137
+    second: BigEnemy_54
+  - first:
+      213: -2544487310060667347
+    second: BigEnemy_55
+  - first:
+      213: 3354603115767738164
+    second: BigEnemy_56
+  - first:
+      213: 1959893867603061618
+    second: BigEnemy_57
+  - first:
+      213: 5664184345841809715
+    second: BigEnemy_58
+  - first:
+      213: 1249784209807950919
+    second: BigEnemy_59
+  - first:
+      213: 8692856495706184385
+    second: BigEnemy_60
+  - first:
+      213: -4020758565064085659
+    second: BigEnemy_61
+  - first:
+      213: -8828370799563540128
+    second: BigEnemy_62
+  - first:
+      213: -8887752778788507220
+    second: BigEnemy_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BigEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1167
+        width: 85
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18810e6b34bb630f0800000000000000
+      internalID: -1137515956359128959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1170
+        width: 82
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ca43772e5914cd0800000000000000
+      internalID: -2575612711984124796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1057
+        width: 102
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c7b528a1f06a700800000000000000
+      internalID: 551144610930064512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_7
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1062
+        width: 90
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e942f35e034a74b30800000000000000
+      internalID: 4271563301495710878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 949
+        width: 90
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fce88cd74b355c60800000000000000
+      internalID: 7806210708945300728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_12
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 953
+        width: 81
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d205d004ebe9a00800000000000000
+      internalID: 765258169010105617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 837
+        width: 89
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd6e0b6aae977aa0800000000000000
+      internalID: -6163283110255497779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_17
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 843
+        width: 89
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab8086064627aa30800000000000000
+      internalID: 4226388857509153700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 742
+        width: 89
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4ed0d4c33774760800000000000000
+      internalID: 7442043612081022175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_22
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 746
+        width: 87
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe81b37fe00420b80800000000000000
+      internalID: -8430105119462582033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 655
+        width: 92
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0090b2a95850c90800000000000000
+      internalID: -7204205131715772187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_27
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 652
+        width: 79
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ea29129c3f751a0800000000000000
+      internalID: -6820715065452089846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 561
+        width: 97
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4858e595c7b6bb80800000000000000
+      internalID: -8379307997424756657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_35
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 467
+        width: 99
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e473616f5ebfe50800000000000000
+      internalID: 6844316903817039381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_40
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 376
+        width: 94
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedcc4045a045d910800000000000000
+      internalID: 1861465099480124909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 287
+        width: 107
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595e1fbf61bf6c3c0800000000000000
+      internalID: -4339505114790107755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_53
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 112
+        width: 116
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b409b21abc84b3b0800000000000000
+      internalID: -5497614514306612044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 109
+        width: 111
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4020376f4869ffa0800000000000000
+      internalID: -5766463157628297137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_55
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 108
+        width: 117
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e3854d54a20bcd0800000000000000
+      internalID: -2544487310060667347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_56
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 183
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f21c5a2c1fd8e20800000000000000
+      internalID: 3354603115767738164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_57
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 114
+        width: 119
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b62ffa611f23b10800000000000000
+      internalID: 1959893867603061618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_58
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 107
+        width: 120
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339ba3407a93b9e40800000000000000
+      internalID: 5664184345841809715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_59
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 17
+        width: 122
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744ce7ffd10285110800000000000000
+      internalID: 1249784209807950919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_60
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 24
+        width: 129
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca93061dea33a870800000000000000
+      internalID: 8692856495706184385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_61
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 25
+        width: 129
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56feeb153656338c0800000000000000
+      internalID: -4020758565064085659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_62
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 22
+        width: 129
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069759258835b7580800000000000000
+      internalID: -8828370799563540128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigEnemy_63
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 20
+        width: 129
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1f1d0efeb58a480800000000000000
+      internalID: -8887752778788507220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

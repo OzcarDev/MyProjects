@@ -5,97 +5,61 @@ using UnityEngine;
 
 public class MoveState :  BaseState
 {
-    Coroutine actualCoroutine;
-    Coroutine newCoroutine;
-    float time;
-    Rigidbody rb;
+  
+
+ 
     Enemy context;
-    public override void EnterState(Enemy enemy,Rigidbody enemyRB) {
-        Debug.Log("Empieza");
+    public override void EnterState(Enemy enemy,Rigidbody enemyRB,int time) {
         context = enemy;
-        time = SetTime(time);
-        rb = enemyRB;
-        actualCoroutine = enemy.StartCoroutine(Idle());
-    }
-    public override void UpdateState(Enemy enemy) {
-      
+         RandomMovement(); 
     }
 
-    public override void OnTriggerEnter(Enemy enemy) {
-      context.StopCoroutine(actualCoroutine);
-    
-    }
+    public override void UpdateState(Enemy enemy) { }
 
-    Coroutine RandomMovement(Enemy context)
+
+    void RandomMovement()
     {
-        switch (Random.Range(0, 5))
+        int newOption;
+        do
+        {
+            newOption = Random.Range(0, 4);
+        } while (newOption == context.Option);
+       context.Option = newOption;
+        switch (context.Option)
         {
             case 0:
-                return context.StartCoroutine(Idle());
+                context.SwitchState(context.idleState);
+                break;
             case 1:
-                return context.StartCoroutine(LeftMovement());
+                context.SwitchState(context.fowardState);
+                break;
             case 2:
-                return context.StartCoroutine(RightMovement());
+                context.SwitchState(context.leftState);
+                break;
             case 3:
-                return context.StartCoroutine(FowardMovement()); 
-            default:
-                return context.StartCoroutine(Idle());
+                context.SwitchState(context.rightState);
+                break;
+            
+                
                
         }
     }
 
-    float SetTime(float time)
+
+
+    public override void OnTriggerEnter(Enemy enemy, Collider other)
     {
-        time = Random.Range(1, 4);
-        return time;
-    }
-    IEnumerator Idle()
-    {
-        Debug.Log("Idle");
 
-        yield return new WaitForSecondsCallBack(time, () => {
-            rb.velocity = Vector3.zero;
-
-        });
-        time = SetTime(time);
-        actualCoroutine=RandomMovement(context);
-    }
-    IEnumerator FowardMovement()
-    {
-        Debug.Log("FowardMovement");
-        
-        yield return new WaitForSecondsCallBack(time, () =>
-        {
-            rb.velocity = new Vector3(0, 0, -1 * context.speed);
-
-        });
-        time = SetTime(time);
-        actualCoroutine = RandomMovement(context);
-    }
-
-    IEnumerator LeftMovement()
-    {
-        Debug.Log("LeftMovement");
-       
-        yield return new WaitForSecondsCallBack(time, () =>
-        {
-            rb.velocity = new Vector3(-1 * context.speed, 0, 0);
-
-        });
-        time = SetTime(time);
-        actualCoroutine = RandomMovement(context);
-    }
-
-    IEnumerator RightMovement()
-    {
-        Debug.Log("RightMovement");
-       
-        yield return new WaitForSecondsCallBack(time, () =>
+        if (other.gameObject.tag == "AttackZone")
         {
 
-            rb.velocity = new Vector3(1 * context.speed, 0, 0);
-        });
-        time = SetTime(time);
-        actualCoroutine = RandomMovement(context);
+            enemy.SwitchState(enemy.attackState);
+        }
+
     }
+
+
+    
+
+
 }
