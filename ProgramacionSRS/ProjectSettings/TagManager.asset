@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - MobilePlatform
   - Power
+  - Time
   layers:
   - Default
   - TransparentFX

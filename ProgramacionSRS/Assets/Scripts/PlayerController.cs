@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
    public IdleState idleState= new IdleState();
     public AudioSource deadSound;
     public Animator deadAnimation;
+    public GameManager gameManager;
     [Header("Movement")]
     public float speed;
     float horizontal;

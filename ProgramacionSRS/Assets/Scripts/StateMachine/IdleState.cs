@@ -32,7 +32,10 @@ public class IdleState : BaseState
 			playerController.SwitchState(playerController.powerState);
         }
 
-
+		if (other.gameObject.tag == "Time")
+		{
+			playerController.gameManager.time += 10;
+		}
 	}
 
 	IEnumerator DeadSecuency()

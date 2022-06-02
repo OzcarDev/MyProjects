@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public string scene;
-    public int time;
+    public float time;
     float drawTime;
     public Animator GameAnimations;
     public Text text;
@@ -18,22 +18,17 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         GameAnimations.Play("StartAnimation");
-        StartCoroutine(Timer());
+     
     }
 
     private void Update()
     {
-        text.text = drawTime.ToString();   
+        text.text = drawTime.ToString();
+        time -= Time.deltaTime;
+        text.text = time.ToString();
     }
-    IEnumerator Timer()
-    {
-        for (int i = time; i >= 0; i--)
-        {
-            drawTime = i;
-            yield return new WaitForSeconds(1f);
-        }
-        StartCoroutine(Timeout());
-    }
+  
+   
 
     IEnumerator Timeout()
     {

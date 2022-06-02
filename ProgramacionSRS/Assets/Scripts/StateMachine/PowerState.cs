@@ -28,6 +28,11 @@ public class PowerState : BaseState
 		{
 			playerController.DestroyOther(other.gameObject);
 		}
+
+        if (other.gameObject.tag == "Time")
+        {
+			playerController.gameManager.time += 10;
+        }
 	}
 
 	public override void OnCollisionEnter(PlayerController playerController, Collision2D col)
